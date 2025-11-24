@@ -9,6 +9,8 @@ int main()
   printf("Enter the number of column : ");
   scanf("%d",&c);
 
+  printf("Enter the number for first matrix : ");
+
   for(i=0;i<r;i++)
   {
     for(j=0;j<c;j++)
@@ -27,12 +29,8 @@ int main()
     printf("\n");
   }
 
-  printf("Enter the number of row : ");
-  scanf("%d",&r);
-
-  printf("Enter the number of column : ");
-  scanf("%d",&c);
-
+  printf("Enter the number for second matrix : ");
+  
   for(i=0;i<r;i++)
   {
     for(j=0;j<c;j++)
@@ -65,4 +63,5 @@ int main()
   return 0;
 
 }
+
 
